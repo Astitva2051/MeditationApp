@@ -102,7 +102,7 @@ class _Player extends State<Player> {
                               child: GridTile(
                                 child: Image.network(
                                   videos.photomap[id],
-                                  fit: BoxFit.fitWidth,
+                                  fit: BoxFit.cover,
                                 ),
                                 footer: Container(
                                   color: Colors.black.withOpacity(0.5),
